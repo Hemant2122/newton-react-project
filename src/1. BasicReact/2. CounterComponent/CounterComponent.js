@@ -23,7 +23,22 @@ function CounterComponent(props){
     const increment = () => {
         // count++;
 
-        setCount(count + 1);
+        // setCount(count + 1);
+        // setCount(count + 1);
+        // setCount(count + 1);
+        // setCount(count + 1);
+        // setCount(count + 1);
+
+        /* 
+        You should Only use the new setCount((oldValue) => oldValue + 1);
+        */
+
+        setCount((oldValue) => oldValue + 1);
+        setCount((oldValue) => oldValue + 1);
+        setCount((oldValue) => oldValue + 1);
+        setCount((oldValue) => oldValue + 1);
+        setCount((oldValue) => oldValue + 1);
+        
         console.log(count, "increment clicked count");
     }
 
