@@ -2,29 +2,34 @@ import logo from './logo.svg';
 import './App.css';
 import HelloComponent from './1. BasicReact/1. HelloComponent/HelloComponent';
 import CounterComponent from './1. BasicReact/2. CounterComponent/CounterComponent';
+import ListComponent from './1. BasicReact/3. ListComponent/ListComponet';
 
 function App() {
-  return (
-    /*
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h1>Hemant Kumar</h1>
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-    */
+  const listStudent = [
+    {
+      name : "Hemant",
+      classs : 11,
+    },
 
+    {
+      name : "Yuvraj",
+      classs : 12,
+    },
+
+    {
+      name : "Utkarsh",
+      classs : 10,
+    },
+
+    {
+      name : "Mayank",
+      classs : 9,
+    }
+
+  ];
+
+  return (
+    
     <>
     {/* <HelloComponent name={"Tarun"} />
     <HelloComponent name={"Hemant"} />
@@ -33,7 +38,9 @@ function App() {
     <HelloComponent /> */}
 
     {/* React is calling the counter Component Function */}
-    <CounterComponent heading={"Counter Component"} />
+    {/* <CounterComponent heading={"Counter Component"} /> */}
+
+    <ListComponent student={listStudent}/>
 
     </>
   );
