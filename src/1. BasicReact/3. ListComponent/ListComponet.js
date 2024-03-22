@@ -1,4 +1,5 @@
 import React from "react";
+import StudentItem from "./StudentItem";
 
 function ListComponent(props){
 
@@ -9,14 +10,17 @@ function ListComponent(props){
         <React.Fragment>
             <h1>List Component</h1>
 
-            {student.map((student) => {
-                const { name, classs } = student;
+            {student.map((student, index) => {
+                const { id, name, classs, color } = student;
 
+                /*
                 return(
+            
+
                     <div style={{
                         display:"flex",
                         justifyContent:"space-between",
-                        background:"red",
+                        background:color,
                         padding: "20px",
                         margin: "20px",
                     }}>
@@ -25,7 +29,13 @@ function ListComponent(props){
     
                     </div>
                 );
+
+                */
+               return(
+                <StudentItem key={id} name={name} classs={classs} color={color}/>
+               );
             })}
+    
         </React.Fragment>
     )
 }
