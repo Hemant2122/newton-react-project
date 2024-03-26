@@ -4,7 +4,9 @@ import HelloComponent from './1. BasicReact/1. HelloComponent/HelloComponent';
 import CounterComponent from './1. BasicReact/2. CounterComponent/CounterComponent';
 import ListComponent from './1. BasicReact/3. ListComponent/ListComponet';
 import ConditionalRendering from './1. BasicReact/4. ConditionalRendering/ConditionalRendering';
-import MultipleState from './5. MultipleState/MultipleState';
+import MultipleState from './5. MultipleState/1. Multiple__Use__State/MultipleState';
+import SingleUseState from './5. MultipleState/2.Single__USe__State/SingleUseState';
+
 
 function App() {
   const listStudent = [
@@ -53,7 +55,9 @@ function App() {
 
     {/* <ConditionalRendering /> */}
 
-    <MultipleState />
+    {/* <MultipleState /> */}
+
+    <SingleUseState />
 
     </>
   );
