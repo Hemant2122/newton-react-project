@@ -1,4 +1,5 @@
 import { useState } from "react";
+import ErrorContainer from "./ErrorContainer";
 
 const DEFAULT_VALUE_OF_FORM = {
     firstName: "",
@@ -102,8 +103,10 @@ function OwnForms() {
                 <label htmlFor="firstName">First Name* : </label>
                 <input onChange={(event) =>  {
                     onChangeHandaler(event, "firstName");
-                }} type="text" id="firstName" />
-                <div style={{color: "red", fontWeight: "bold"}}>{errorState.firstName}</div>
+                }} type="text" id="firstName"/>
+
+                <ErrorContainer errorString={errorState.firstName} />
+
                 <br/>
                 <br/>
 
@@ -111,7 +114,9 @@ function OwnForms() {
                 <input onChange={(event) => {
                     onChangeHandaler(event, "lastName");
                 }} type="text" id="lastName" />
-                <div style={{color: "red", fontWeight: "bold"}}>{errorState.lastName}</div>
+
+                <ErrorContainer errorString={errorState.lastName} />
+                
                 <br/>
                 <br/>
 
@@ -119,7 +124,9 @@ function OwnForms() {
                 <input onChange={(event) => {
                     onChangeHandaler(event, "email");
                 }} type="text" id="email" />
-                <div style={{color: "red", fontWeight: "bold"}}>{errorState.email}</div>
+
+                <ErrorContainer errorString={errorState.email} />
+                
                 <br/>
                 <br/>
 
@@ -127,7 +134,9 @@ function OwnForms() {
                 <input onChange={(event) => {
                     onChangeHandaler(event, "phone");
                 }} type="number" id="phone" />
-                <div style={{color: "red", fontWeight: "bold"}}>{errorState.phone}</div>
+
+                <ErrorContainer errorString={errorState.phone} />
+                
                 <br/>
                 <br/>
 
