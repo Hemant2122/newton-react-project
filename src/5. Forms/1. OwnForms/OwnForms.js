@@ -39,6 +39,27 @@ function OwnForms() {
             // show the popup
             alert("Form should be Valid");
         }
+
+        // GET.
+
+        // fetch(`asdasdasd.com`, {
+        //     method: "GET",
+        // })
+
+        fetch(`asdasdasd.com?${"firstName" + "=" + form.firstName}&${"lastName" + "=" + form.lastName}&${"phone" + "=" + form.phone}&${"email" + "=" + form.email}&${"dob" + "=" + form.dob}`)
+
+
+        /*
+        // POST. 
+        fetch(`asdasdasd.com`, {
+            method: "POST",
+            body: JSON.stringify(form),
+        })
+        .then(response => response.json())
+        .then(data => console.log(data));
+
+        */
+
     }
 
     function onSubmissionValidateForm(){

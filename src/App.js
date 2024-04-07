@@ -14,6 +14,17 @@ import ParentSibling from './2. Communication/3. Sibling/ParentSibling';
 import KeyAndListProblem from './3. KeyAndList/KeyAndListProblem';
 import KeyAndListSolution from './3. KeyAndList/KeyAndListSolution';
 import OwnForms from './5. Forms/1. OwnForms/OwnForms';
+import LifeCycleOfFunctionalComponent from './6. LifeCycleOfComponent/FunctionalComponent/LifeCycleOfFunctionalComponent';
+import HookUseEffect from './7. Hook useEffect/HookUseEffect';
+import { useState } from 'react';
+import ImageDimensionResizer from './Assignments/ImageDimensionResizer';
+import ValidateLoginForm from './Assignments/ValidateLoginForm';
+import CreateBoxes from './Assignments/CreateBoxes';
+import InlineCssStyle from './Assignments/InlineCssStyle/InlineCssStyle';
+import PokemonApi from './8. PokemonApi/PokemonApi';
+import ShoppingScroller from './Assignments/ShoppingScroller';
+import RandomUsersAPI from './Assignments/RandomUsersAPI/RandomUsersAPI';
+import DIgitalClock from './9. DIgitalClock/DIgitalClock';
 
 
 
@@ -21,6 +32,10 @@ import OwnForms from './5. Forms/1. OwnForms/OwnForms';
 
 
 function App() {
+
+  const [flag, setFlag] = useState(true);
+
+
   const listStudent = [
     {
       id: 1,
@@ -54,6 +69,19 @@ function App() {
   return (
     
     <>
+      {/* Assignments */}
+
+      {/* <ImageDimensionResizer /> */}
+      {/* <ValidateLoginForm /> */}
+      {/* <CreateBoxes /> */}
+      {/* <InlineCssStyle /> */}
+      {/* <ShoppingScroller /> */}
+      {/* <RandomUsersAPI /> */}
+
+      {/* Assignments */}
+
+
+
     {/* <HelloComponent name={"Tarun"} />
     <HelloComponent name={"Hemant"} />
     <HelloComponent name={"Utkarsh"} />
@@ -88,6 +116,19 @@ function App() {
     {/* <KeyAndListSolution /> */}
 
     <OwnForms />
+
+    {/* <LifeCycleOfFunctionalComponent /> */}
+
+    {/* {flag && <HookUseEffect />}
+    <button style={{margin: "10px"}} onClick={() => {
+      setFlag((oldVal) => !oldVal)
+    }}>
+      APP BUTTON TO HIDE
+    </button> */}
+
+    {/* <PokemonApi /> */}
+
+    {/* <DIgitalClock /> */}
 
     </>
   );
