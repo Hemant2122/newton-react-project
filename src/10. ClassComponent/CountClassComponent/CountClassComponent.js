@@ -1,4 +1,6 @@
 import { Component } from "react";
+import HelloComponent from "../../1. BasicReact/1. HelloComponent/HelloComponent";
+import HelloClassComponent from "../../1. BasicReact/1. HelloComponent/HelloClassComponent";
 
 
 
@@ -49,6 +51,10 @@ class CountClassComponent extends Component {
                         <button onClick={this.increment.bind(this)}>+</button>
                     </div>
                 </div>
+
+                <div>-------------------SELEPRATOR-----------------</div>
+                <HelloComponent />
+                <HelloClassComponent />
             </>
         )
     }
