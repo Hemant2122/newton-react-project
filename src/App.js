@@ -25,6 +25,7 @@ import PokemonApi from './8. PokemonApi/PokemonApi';
 import ShoppingScroller from './Assignments/ShoppingScroller';
 import RandomUsersAPI from './Assignments/RandomUsersAPI/RandomUsersAPI';
 import DIgitalClock from './9. DIgitalClock/DIgitalClock';
+import CountClassComponent from './10. ClassComponent/CountClassComponent/CountClassComponent';
 
 
 
@@ -115,7 +116,7 @@ function App() {
 
     {/* <KeyAndListSolution /> */}
 
-    <OwnForms />
+    {/* <OwnForms /> */}
 
     {/* <LifeCycleOfFunctionalComponent /> */}
 
@@ -129,6 +130,8 @@ function App() {
     {/* <PokemonApi /> */}
 
     {/* <DIgitalClock /> */}
+
+    <CountClassComponent />
 
     </>
   );
