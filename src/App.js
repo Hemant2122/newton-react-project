@@ -27,6 +27,8 @@ import RandomUsersAPI from './Assignments/RandomUsersAPI/RandomUsersAPI';
 import DIgitalClock from './9. DIgitalClock/DIgitalClock';
 import CountClassComponent from './10. ClassComponent/1. CountClassComponent/CountClassComponent';
 import PokemonApiClassComponent from './10. ClassComponent/2. PokemonApiClassComponent/PokemonApiClassComponent';
+import CreateKeyboard from './Assignments/CreateKeyboard/CreateKeyboard';
+import PlayTriviaGame from './Assignments/PlayTriviaGame/PlayTriviaGame';
 
 
 
@@ -79,6 +81,8 @@ function App() {
       {/* <InlineCssStyle /> */}
       {/* <ShoppingScroller /> */}
       {/* <RandomUsersAPI /> */}
+      {/* <CreateKeyboard />  */}
+      <PlayTriviaGame />
 
       {/* Assignments */}
 
@@ -134,7 +138,7 @@ function App() {
 
     {/* <CountClassComponent /> */}
 
-    <PokemonApiClassComponent />
+    {/* <PokemonApiClassComponent /> */}
 
     </>
   );
