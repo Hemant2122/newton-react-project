@@ -82,7 +82,7 @@ function App() {
       {/* <ShoppingScroller /> */}
       {/* <RandomUsersAPI /> */}
       {/* <CreateKeyboard />  */}
-      <PlayTriviaGame />
+      {/* <PlayTriviaGame /> */}
 
       {/* Assignments */}
 
@@ -138,7 +138,7 @@ function App() {
 
     {/* <CountClassComponent /> */}
 
-    {/* <PokemonApiClassComponent /> */}
+    <PokemonApiClassComponent />
 
     </>
   );
