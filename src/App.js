@@ -29,6 +29,7 @@ import CountClassComponent from './10. ClassComponent/1. CountClassComponent/Cou
 import PokemonApiClassComponent from './10. ClassComponent/2. PokemonApiClassComponent/PokemonApiClassComponent';
 import CreateKeyboard from './Assignments/CreateKeyboard/CreateKeyboard';
 import PlayTriviaGame from './Assignments/PlayTriviaGame/PlayTriviaGame';
+import PokemonKingdomMainPage from './11. PokemonKingdom/Page/PokemonKingdomMainPage';
 
 
 
@@ -138,7 +139,9 @@ function App() {
 
     {/* <CountClassComponent /> */}
 
-    <PokemonApiClassComponent />
+    {/* <PokemonApiClassComponent /> */}
+
+    <PokemonKingdomMainPage />
 
     </>
   );
