@@ -3,7 +3,7 @@ import stylesCard from "./PokemonCardComponent.module.css";
 
 
 function PokemonModalComponent(props){
-    const { pokemon } = props;
+    const { pokemon, onClose } = props;
     const { height, weight, stats = [], id, name, type, image } = pokemon;
 
 
@@ -13,7 +13,7 @@ function PokemonModalComponent(props){
 
                 {/* cross sing */}
                 <div className={styles.closeButton} onClick={() => {
-                    console.log("close this popup");
+                    onClose();
                 }}>
                     X
                 </div>

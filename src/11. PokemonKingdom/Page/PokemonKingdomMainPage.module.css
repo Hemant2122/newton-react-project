@@ -22,7 +22,13 @@ body{
 .morePokemonBtn{
     margin: 38px;
     border: none;
-    background-image: linear-gradient(315deg, #76daff 0%, #fcd000 74%);
+    padding: 12px 70px;
+    background-image: linear-gradient(315deg, #76daff 0%, #cec828 65%);
+    
+}
+
+.morePokemonBtn:hover{
+    background-image: linear-gradient(315deg, #ff2100 20%, #cec828 73%);
 }
 
 h1{

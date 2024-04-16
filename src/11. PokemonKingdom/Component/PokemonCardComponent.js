@@ -1,6 +1,7 @@
 import { useState } from "react";
 import styles from "./PokemonCardComponent.module.css"
 import PokemonModalComponent from "./PokemonModalComponent";
+import BackDrop from "./BackDrop";
 
 function PokemonCardComponent(props){
 
@@ -33,7 +34,11 @@ function PokemonCardComponent(props){
 
             {
                 modal && (
-                    <PokemonModalComponent pokemon={pokemon}/>
+                    <BackDrop onClose={() => setModal(false)}>
+                        <PokemonModalComponent
+                            onClose={() => setModal(false)}
+                            pokemon={pokemon}/>
+                    </BackDrop>
                 )
             }
         </>

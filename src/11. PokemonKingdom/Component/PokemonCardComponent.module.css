@@ -35,12 +35,17 @@
     text-decoration: underline;
 }
 
+/* Card Container Button */
+
 .knowMoreBtn{
     border-radius: 5px;
     padding: 10px 20px;
     background-color: rgba(255, 255, 255, 0.3);
     cursor: pointer;
 }
+
+
+/* Card Container Background color */
 
 .rock{
     background-image: linear-gradient(to top, #c79081 0%, #dfa579 100%);
