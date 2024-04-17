@@ -30,6 +30,7 @@ import PokemonApiClassComponent from './10. ClassComponent/2. PokemonApiClassCom
 import CreateKeyboard from './Assignments/CreateKeyboard/CreateKeyboard';
 import PlayTriviaGame from './Assignments/PlayTriviaGame/PlayTriviaGame';
 import PokemonKingdomMainPage from './11. PokemonKingdom/Page/PokemonKingdomMainPage';
+import LifeCycle from './10. ClassComponent/0. LifeCycleOfClassComponent/LifeCycle';
 
 
 
@@ -141,7 +142,9 @@ function App() {
 
     {/* <PokemonApiClassComponent /> */}
 
-    <PokemonKingdomMainPage />
+    {/* <PokemonKingdomMainPage /> */}
+
+    <LifeCycle />
 
     </>
   );
