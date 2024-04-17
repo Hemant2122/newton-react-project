@@ -12,7 +12,7 @@ function PokemonModalComponent(props){
             <div className={`${styles.popupContainer} ${stylesCard[type]}`}>
 
                 {/* cross sing */}
-                <div className={styles.closeButton} onClick={() => {
+                <div className={`${styles.closeButton} ${`knowMoreBtn${type}`}`} onClick={() => {
                     onClose();
                 }}>
                     X

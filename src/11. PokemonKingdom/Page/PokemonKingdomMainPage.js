@@ -52,7 +52,7 @@ function PokemonKingdomMainPage(props) {
                 <h1>LOADING.........</h1>
             ) : (
                 <>
-                    <h1>Pokemon KingDom</h1>
+                    <h1 className={styles.heading}>Pokemon KingDom</h1>
 
                     {/* POKEMON */}
 

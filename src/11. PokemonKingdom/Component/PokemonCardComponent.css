@@ -1,0 +1,95 @@
+/* Card Container Button */
+
+.knowMoreBtn{
+    border-radius: 5px;
+    padding: 7px 28px;
+    cursor: pointer;
+}
+
+.knowMoreBtnrock{
+    background-image: linear-gradient(315deg, #fa91e3 20%, #cdc96e 122%);
+}
+
+.knowMoreBtnrock:hover{
+    background-image: linear-gradient(315deg, #cdc96e 10%, #fa91e3 48%);
+}
+
+.knowMoreBtnbug{
+    background-image: linear-gradient(315deg, #926f4b 20%, #f1b57a 122%);
+}
+
+.knowMoreBtnbug:hover{
+    background-image: linear-gradient(315deg, #f1b57a 10%, #926f4b 48%);
+}
+
+.knowMoreBtnelectric{
+    background-image: linear-gradient(315deg, #f5460b 20%, #d9a73f 122%);
+}
+
+.knowMoreBtnelectric:hover{
+    background-image: linear-gradient(315deg, #d9a73f 10%, #f5460b 48%);
+}
+
+.knowMoreBtnghost{
+    background-image: linear-gradient(315deg, #647362 20%, #cec828 122%);
+}
+
+.knowMoreBtnghost:hover{
+    background-image: linear-gradient(315deg, #cec828 10%, #647362 48%);
+}
+
+.knowMoreBtnpoison{
+    background-image: linear-gradient(315deg, #7121b0 20%, #9b89d9 122%);
+}
+
+.knowMoreBtnpoison:hover{
+    background-image: linear-gradient(315deg, #9b89d9 10%, #7121b0 48%);
+}
+
+.knowMoreBtnfire{
+    background-image: linear-gradient(315deg, #d18941 20%, #e9e10e 122%);
+}
+
+.knowMoreBtnfire:hover{
+    background-image: linear-gradient(315deg, #e9e10e 10%, #d18941 48%);
+}
+
+.knowMoreBtnfairy{
+    background-image: linear-gradient(315deg, #b01bc0 20%, #e3a6df 122%);
+}
+
+.knowMoreBtnfairy:hover{
+    background-image: linear-gradient(315deg, #e3a6df 10%, #b01bc0 48%);
+}
+
+.knowMoreBtnnormal{
+    background-image: linear-gradient(315deg, #c59cd6 20%, #e44ef4 122%);
+}
+
+.knowMoreBtnnormal:hover{
+    background-image: linear-gradient(315deg, #e44ef4 10%, #c59cd6 48%);
+}
+
+.knowMoreBtngrass{
+    background-image: linear-gradient(315deg, #1f9c0d 20%, #cec828 122%);
+}
+
+.knowMoreBtngrass:hover{
+    background-image: linear-gradient(315deg, #cec828 10%, #22be0c 48%);
+}
+
+.knowMoreBtnwater{
+    background-image: linear-gradient(315deg, #338abf 20%, #64dff6 122%);
+}
+
+.knowMoreBtnwater:hover{
+    background-image: linear-gradient(315deg, #64dff6 10%, #338abf 48%);
+}
+
+.knowMoreBtnground{
+    background-image: linear-gradient(315deg, #be6102 20%, #856545 122%);
+}
+
+.knowMoreBtnground:hover{
+    background-image: linear-gradient(315deg, #856545 10%, #be6102  48%);
+}

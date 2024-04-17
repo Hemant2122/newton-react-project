@@ -2,6 +2,7 @@ import { useState } from "react";
 import styles from "./PokemonCardComponent.module.css"
 import PokemonModalComponent from "./PokemonModalComponent";
 import BackDrop from "./BackDrop";
+import './PokemonCardComponent.css';
 
 function PokemonCardComponent(props){
 
@@ -23,7 +24,7 @@ function PokemonCardComponent(props){
                     <h3 className={styles.nameStyle}>{name.toUpperCase()}</h3>
                     <p>Type: {type}</p>
                 </div>
-                <div className={styles.knowMoreBtn} onClick={() => {
+                <div className={`knowMoreBtn knowMoreBtn${type}`} onClick={() => {
                     setModal((old) => !old);
                 }}>
                     Know more...
