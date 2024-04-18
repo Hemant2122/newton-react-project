@@ -142,7 +142,7 @@ function App() {
 
     {/* <PokemonApiClassComponent /> */}
 
-    <PokemonKingdomMainPage />
+    {/* <PokemonKingdomMainPage /> */}
 
     {/* <LifeCycle /> */}
 
