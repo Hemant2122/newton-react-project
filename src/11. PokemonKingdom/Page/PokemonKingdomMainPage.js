@@ -44,7 +44,7 @@ function PokemonKingdomMainPage(props) {
 
     useEffect(() => {
         fetchPokemonList();
-    }, [])
+    }, []);
 
     return (
         <>
@@ -52,7 +52,10 @@ function PokemonKingdomMainPage(props) {
                 <h1>LOADING.........</h1>
             ) : (
                 <>
-                    <h1 className={styles.heading}>Pokemon KingDom</h1>
+                    <div className={styles.content}>
+                        <h2>Pokemon KingDom</h2>
+                        <h2>Pokemon KingDom</h2>
+                    </div>
 
                     {/* POKEMON */}
 
