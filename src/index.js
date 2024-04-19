@@ -6,7 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import HelloComponent from './1. BasicReact/1. HelloComponent/HelloComponent';
 import HelloClassComponent from './1. BasicReact/1. HelloComponent/HelloClassComponent';
 import RouterApp from './12. ReactRouting/2. RouterApplication/RouterApp';
-import { BrowserRouter } from 'react-router-dom';
+import { BrowserRouter, HashRouter, MemoryRouter } from 'react-router-dom';
 
 
 
