@@ -5,6 +5,9 @@ import MenPage from "./pages/Men/MenPage";
 import Hats from "./components/Men/Hats";
 import NotFoundPage from "./pages/NotFoundPage";
 import AnimalPage from "./pages/Animal/AnimalPage";
+import Paints from "./components/Men/Paints";
+import RendomMenProducts from "./components/Men/RendomMenProducts";
+import styles from "./RouterApp.module.css";
 
 
 
@@ -27,14 +30,47 @@ function RouterApp(){
                     padding: "10px",
                 }}>
                     <li>
-                        <NavLink to="/mentor">Mentor</NavLink>
+                        <NavLink className={(navLinkProps) => {
+                            const {isActive} = navLinkProps;
+                            return isActive ? `${styles.activeLink}` : '';
+                            
+                        }} to="/mentor">Mentor</NavLink>
                     </li>
 
                     <li>
-                        <NavLink to="/about">About</NavLink>
+                        <NavLink className={(navLinkProps) => {
+                            const {isActive} = navLinkProps;
+                            return isActive ? `${styles.activeLink}` : '';
+                            
+                        }} to="/about" reloadDocument >About</NavLink>
+                    </li>
+
+                    <li>
+                        <NavLink className={(navLinkProps) => {
+                            const {isActive} = navLinkProps;
+                            return isActive ? `${styles.activeLink}` : '';
+                            
+                        }} to="/animal?q=dog">DOG</NavLink>
+                    </li>
+
+                    <li>
+                        <NavLink className={(navLinkProps) => {
+                            const {isActive} = navLinkProps;
+                            return isActive ? `${styles.activeLink}` : '';
+                            
+                        }} to="/animal?q=cat">CAT</NavLink>
+                    </li>
+
+                    <li>
+                        <NavLink className={(navLinkProps) => {
+                            const {isActive} = navLinkProps;
+                            return isActive ? `${styles.activeLink}` : '';
+                            
+                        }} to="/men" end >Men Collection</NavLink>
                     </li>
                 </ul>
             </nav>
+            {/* end --> The end prop changes the matching logic for the active and pending states to only match to the "end" of the NavLink's to path. */}
 
             {/* REAL ROUTING LOGIC */}
 
@@ -60,8 +96,15 @@ function RouterApp(){
 
                 {/* ----------------------- 3rd Phase of Route ---------------------------- */}
 
+                {/* when ypu are using the Parent child Route Relationship then we need to have 
+                    <Outlet></Outlet> in Parent component
+                    to that Our child Component can be  Displayed  in that Parent Component.
+                */}
+
                 <Route path="/men" element={<MenPage />} >
-                    {/* <Route path="/hats" element={<Hats />}></Route> */}
+                    <Route path="hats" element={<Hats />}></Route>
+                    <Route path="Pant" element={<Paints />}></Route>
+                    <Route path=":id" element={<RendomMenProducts />}></Route>
                 </Route>
 
             </Routes>
@@ -71,3 +114,6 @@ function RouterApp(){
 }
 
 export default RouterApp;
+
+
+// red IMP link : --> https://reactrouter.com/en/main

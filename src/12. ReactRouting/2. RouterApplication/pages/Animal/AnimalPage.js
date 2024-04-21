@@ -1,4 +1,6 @@
 import { useSearchParams } from "react-router-dom";
+import Dog from "../../components/Animal/Dog";
+import Cat from "../../components/Animal/Cat";
 
 function AnimalPage(){
     // console.log(window.location.search, "geting serach non convebtional way"); // we shoule never do this.
@@ -10,9 +12,9 @@ function AnimalPage(){
 
         switch(type){
             case "dog":
-                return (<h4>DOGS</h4>);
+                return <Dog />;
             case "cat":
-                return (<h4>CATS</h4>);
+                return <Cat />;
             default:
                 return (<h4>No animal like this in  animal kindom</h4>);
         }
