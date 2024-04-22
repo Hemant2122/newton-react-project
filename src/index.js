@@ -1,25 +1,30 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+// import App from './App';
 import reportWebVitals from './reportWebVitals';
 import HelloComponent from './1. BasicReact/1. HelloComponent/HelloComponent';
 import HelloClassComponent from './1. BasicReact/1. HelloComponent/HelloClassComponent';
 import RouterApp from './12. ReactRouting/2. RouterApplication/RouterApp';
 import { BrowserRouter, HashRouter, MemoryRouter } from 'react-router-dom';
+import App from './Assignments/Authentication_using_react_router/component/App';
 
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+
+    {/* Assiment APP */}
+    <App />
+
     {/* ------------------ NORMAL APP --------------- */}
     {/* <App /> */}
 
     {/*------------------- ROUTER APP ---------------- */}
-    <BrowserRouter>
+    {/* <BrowserRouter>
       <RouterApp />
-    </BrowserRouter>
+    </BrowserRouter> */}
 
   </React.StrictMode>
 );
