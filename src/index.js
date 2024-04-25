@@ -8,6 +8,7 @@ import HelloClassComponent from './1. BasicReact/1. HelloComponent/HelloClassCom
 import RouterApp from './12. ReactRouting/2. RouterApplication/RouterApp';
 import { BrowserRouter, HashRouter, MemoryRouter } from 'react-router-dom';
 import App from './Assignments/Authentication_using_react_router/component/App';
+import ReactAppContextProblemApi from './14. ContextApi/1. ProblemStatement/components/ReactAppContextProblemApi';
 
 
 
@@ -16,15 +17,22 @@ root.render(
   <React.StrictMode>
 
     {/* Assiment APP */}
-    <App />
+    {/* <App /> */}
 
     {/* ------------------ NORMAL APP --------------- */}
     {/* <App /> */}
+
+
+    {/* Context Api */}
+
+    <ReactAppContextProblemApi />
 
     {/*------------------- ROUTER APP ---------------- */}
     {/* <BrowserRouter>
       <RouterApp />
     </BrowserRouter> */}
+
+
 
   </React.StrictMode>
 );
