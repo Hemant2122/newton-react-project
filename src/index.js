@@ -9,6 +9,7 @@ import RouterApp from './12. ReactRouting/2. RouterApplication/RouterApp';
 import { BrowserRouter, HashRouter, MemoryRouter } from 'react-router-dom';
 import App from './Assignments/Authentication_using_react_router/component/App';
 import ReactAppContextProblemApi from './14. ContextApi/1. ProblemStatement/components/ReactAppContextProblemApi';
+import ReactAppContextSolutionApi from './14. ContextApi/2. SolutionUsingContextAPI/components/ReactAppContextSolutionApi';
 
 
 
@@ -25,7 +26,8 @@ root.render(
 
     {/* Context Api */}
 
-    <ReactAppContextProblemApi />
+    {/* <ReactAppContextProblemApi /> */}
+    <ReactAppContextSolutionApi />
 
     {/*------------------- ROUTER APP ---------------- */}
     {/* <BrowserRouter>
