@@ -10,6 +10,7 @@ import { BrowserRouter, HashRouter, MemoryRouter } from 'react-router-dom';
 import App from './Assignments/Authentication_using_react_router/component/App';
 import ReactAppContextProblemApi from './14. ContextApi/1. ProblemStatement/components/ReactAppContextProblemApi';
 import ReactAppContextSolutionApi from './14. ContextApi/2. SolutionUsingContextAPI/components/ReactAppContextSolutionApi';
+import DarkThemeApp from './15. DarkThemeAPP/DarkThemeApp';
 
 
 
@@ -27,7 +28,11 @@ root.render(
     {/* Context Api */}
 
     {/* <ReactAppContextProblemApi /> */}
-    <ReactAppContextSolutionApi />
+    {/* <ReactAppContextSolutionApi /> */}
+
+    <BrowserRouter>
+      <DarkThemeApp />
+    </BrowserRouter>
 
     {/*------------------- ROUTER APP ---------------- */}
     {/* <BrowserRouter>
