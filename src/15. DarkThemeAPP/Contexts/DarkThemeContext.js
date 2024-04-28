@@ -1,4 +1,4 @@
-import DarkThemeContext from "react";
+import React from "react";
 
 
 const DarkThemeContext = React.createContext();
