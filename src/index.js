@@ -11,6 +11,7 @@ import App from './Assignments/Authentication_using_react_router/component/App';
 import ReactAppContextProblemApi from './14. ContextApi/1. ProblemStatement/components/ReactAppContextProblemApi';
 import ReactAppContextSolutionApi from './14. ContextApi/2. SolutionUsingContextAPI/components/ReactAppContextSolutionApi';
 import DarkThemeApp from './15. DarkThemeAPP/DarkThemeApp';
+import ContextHellApp from './16. ContextHell/ContextHellApp';
 
 
 
@@ -30,9 +31,11 @@ root.render(
     {/* <ReactAppContextProblemApi /> */}
     {/* <ReactAppContextSolutionApi /> */}
 
-    <BrowserRouter>
+    {/* <BrowserRouter>
       <DarkThemeApp />
-    </BrowserRouter>
+    </BrowserRouter> */}
+
+    <ContextHellApp />
 
     {/*------------------- ROUTER APP ---------------- */}
     {/* <BrowserRouter>
