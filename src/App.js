@@ -31,6 +31,7 @@ import CreateKeyboard from './Assignments/CreateKeyboard/CreateKeyboard';
 import PlayTriviaGame from './Assignments/PlayTriviaGame/PlayTriviaGame';
 import PokemonKingdomMainPage from './11. PokemonKingdom/Page/PokemonKingdomMainPage';
 import LifeCycle from './10. ClassComponent/0. LifeCycleOfClassComponent/LifeCycle';
+import Portals from './17. Portals/Portals';
 
 
 
@@ -145,6 +146,40 @@ function App() {
     {/* <PokemonKingdomMainPage /> */}
 
     {/* <LifeCycle /> */}
+
+    {/* <p>
+      hfioujfgouijiujfiouj ioujfiojf io j fio ujiorj ojrfoiwejrfl smfojriofjoifjiorjiourjiworj 9
+      rfjjrfjijoi ijkr
+      werkojk roijjisfjuiujfui juirjqui jr w9rjioedj9q8 uerj iimddsio fjaiof jiadfj iu i9sdjfio jdaskifu 
+      iuufdjujojdiouajdiufjiosfujauiofj iu j ieuj9uijruerjeoiru jq98rj vjsiorfuearuiodfjairu ef
+      hfioujfgouijiujfiouj ioujfiojf io j fio ujiorj ojrfoiwejrfl smfojriofjoifjiorjiourjiworj 9
+      rfjjrfjijoi ijkr
+      werkojk roijjisfjuiujfui juirjqui jr w9rjioedj9q8 uerj iimddsio fjaiof jiadfj iu i9sdjfio jdaskifu 
+      iuufdjujojdiouajdiufjiosfujauiofj iu j ieuj9uijruerjeoiru jq98rj vjsiorfuearuiodfjairu efhfioujfgouijiujfiouj ioujfiojf io j fio ujiorj ojrfoiwejrfl smfojriofjoifjiorjiourjiworj 9
+      rfjjrfjijoi ijkr
+      werkojk roijjisfjuiujfui juirjqui jr w9rjioedj9q8 uerj iimddsio fjaiof jiadfj iu i9sdjfio jdaskifu 
+      iuufdjujojdiouajdiufjiosfujauiofj iu j ieuj9uijruerjeoiru jq98rj vjsiorfuearuiodfjairu efhfioujfgouijiujfiouj ioujfiojf io j fio ujiorj ojrfoiwejrfl smfojriofjoifjiorjiourjiworj 9
+      rfjjrfjijoi ijkr
+      werkojk roijjisfjuiujfui juirjqui jr w9rjioedj9q8 uerj iimddsio fjaiof jiadfj iu i9sdjfio jdaskifu 
+      iuufdjujojdiouajdiufjiosfujauiofj iu j ieuj9uijruerjeoiru jq98rj vjsiorfuearuiodfjairu efhfioujfgouijiujfiouj ioujfiojf io j fio ujiorj ojrfoiwejrfl smfojriofjoifjiorjiourjiworj 9
+      rfjjrfjijoi ijkr
+      werkojk roijjisfjuiujfui juirjqui jr w9rjioedj9q8 uerj iimddsio fjaiof jiadfj iu i9sdjfio jdaskifu 
+      iuufdjujojdiouajdiufjiosfujauiofj iu j ieuj9uijruerjeoiru jq98rj vjsiorfuearuiodfjairu efhfioujfgouijiujfiouj ioujfiojf io j fio ujiorj ojrfoiwejrfl smfojriofjoifjiorjiourjiworj 9
+      rfjjrfjijoi ijkr
+      werkojk roijjisfjuiujfui juirjqui jr w9rjioedj9q8 uerj iimddsio fjaiof jiadfj iu i9sdjfio jdaskifu 
+      iuufdjujojdiouajdiufjiosfujauiofj iu j ieuj9uijruerjeoiru jq98rj vjsiorfuearuiodfjairu efhfioujfgouijiujfiouj ioujfiojf io j fio ujiorj ojrfoiwejrfl smfojriofjoifjiorjiourjiworj 9
+      rfjjrfjijoi ijkr
+      werkojk roijjisfjuiujfui juirjqui jr w9rjioedj9q8 uerj iimddsio fjaiof jiadfj iu i9sdjfio jdaskifu 
+      iuufdjujojdiouajdiufjiosfujauiofj iu j ieuj9uijruerjeoiru jq98rj vjsiorfuearuiodfjairu efhfioujfgouijiujfiouj ioujfiojf io j fio ujiorj ojrfoiwejrfl smfojriofjoifjiorjiourjiworj 9
+      rfjjrfjijoi ijkr
+      werkojk roijjisfjuiujfui juirjqui jr w9rjioedj9q8 uerj iimddsio fjaiof jiadfj iu i9sdjfio jdaskifu 
+      iuufdjujojdiouajdiufjiosfujauiofj iu j ieuj9uijruerjeoiru jq98rj vjsiorfuearuiodfjairu efhfioujfgouijiujfiouj ioujfiojf io j fio ujiorj ojrfoiwejrfl smfojriofjoifjiorjiourjiworj 9
+      rfjjrfjijoi ijkr
+      werkojk roijjisfjuiujfui juirjqui jr w9rjioedj9q8 uerj iimddsio fjaiof jiadfj iu i9sdjfio jdaskifu 
+      iuufdjujojdiouajdiufjiosfujauiofj iu j ieuj9uijruerjeoiru jq98rj vjsiorfuearuiodfjairu ef
+    </p> */}
+
+    <Portals  title={"Hey I am A popup"}/>
 
     </>
   );

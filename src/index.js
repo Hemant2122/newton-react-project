@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-// import App from './App';
+import App from './App';
 import reportWebVitals from './reportWebVitals';
 import HelloComponent from './1. BasicReact/1. HelloComponent/HelloComponent';
 import HelloClassComponent from './1. BasicReact/1. HelloComponent/HelloClassComponent';
 import RouterApp from './12. ReactRouting/2. RouterApplication/RouterApp';
 import { BrowserRouter, HashRouter, MemoryRouter } from 'react-router-dom';
-import App from './Assignments/Authentication_using_react_router/component/App';
+// import App from './Assignments/Authentication_using_react_router/component/App';
 import ReactAppContextProblemApi from './14. ContextApi/1. ProblemStatement/components/ReactAppContextProblemApi';
 import ReactAppContextSolutionApi from './14. ContextApi/2. SolutionUsingContextAPI/components/ReactAppContextSolutionApi';
 import DarkThemeApp from './15. DarkThemeAPP/DarkThemeApp';
@@ -23,7 +23,7 @@ root.render(
     {/* <App /> */}
 
     {/* ------------------ NORMAL APP --------------- */}
-    {/* <App /> */}
+    <App />
 
 
     {/* Context Api */}
@@ -35,7 +35,7 @@ root.render(
       <DarkThemeApp />
     </BrowserRouter> */}
 
-    <ContextHellApp />
+    {/* <ContextHellApp /> */}
 
     {/*------------------- ROUTER APP ---------------- */}
     {/* <BrowserRouter>
