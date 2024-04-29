@@ -32,6 +32,7 @@ import PlayTriviaGame from './Assignments/PlayTriviaGame/PlayTriviaGame';
 import PokemonKingdomMainPage from './11. PokemonKingdom/Page/PokemonKingdomMainPage';
 import LifeCycle from './10. ClassComponent/0. LifeCycleOfClassComponent/LifeCycle';
 import Portals from './17. Portals/Portals';
+import ContextApiClassComponentApp from './14. ContextApi/3. ContextApiClassComponent/ContextApiClassComponentApp';
 
 
 
@@ -179,7 +180,10 @@ function App() {
       iuufdjujojdiouajdiufjiosfujauiofj iu j ieuj9uijruerjeoiru jq98rj vjsiorfuearuiodfjairu ef
     </p> */}
 
-    <Portals  title={"Hey I am A popup"}/>
+    {/* <Portals  title={"Hey I am A popup"}/> */}
+
+
+    <ContextApiClassComponentApp />
 
     </>
   );
