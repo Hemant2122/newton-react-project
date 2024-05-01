@@ -1,4 +1,6 @@
-function Input() {
+import React from "react";
+
+function Input(props, ref) {
   return (
     <div
       style={{
@@ -8,7 +10,9 @@ function Input() {
         borderRadius: "8px",
       }}
     >
-      <input style={{
+      <input 
+        ref={ref}
+        style={{
         width: "500px",
         height: "20px",
         border: "1px solid black",
@@ -18,4 +22,4 @@ function Input() {
   );
 }
 
-export default Input;
+export default React.forwardRef(Input);

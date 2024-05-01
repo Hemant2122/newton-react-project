@@ -7,7 +7,7 @@ function InputComponentForm(){
     const inputBoxReference = useRef();
 
     useEffect(() => {
-        // inputBoxReference.current.focus();
+        inputBoxReference.current.focus();
     })
 
     return (
