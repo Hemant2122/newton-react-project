@@ -38,6 +38,7 @@ import ShowLatesValAndPrevVal from './18. useRef/2. useRefExamples/1. ShowLatesV
 import SimpleFormInputBoxComponent from './18. useRef/2. useRefExamples/2. SimpleFormInputBoxComponent/SimpleFormInputBoxComponent';
 import InputComponentForm from './18. useRef/2. useRefExamples/3. InputComponentForm/InputComponentForm';
 import UndoMessage from './18. useRef/2. useRefExamples/4. UndoMessage/UndoMessage';
+import CounterReducerApp from './19. useReducer/CounterReducerApp';
 
 
 
@@ -196,7 +197,8 @@ function App() {
 
     {/* <SimpleFormInputBoxComponent /> */}
     {/* <InputComponentForm /> */}
-    <UndoMessage />
+    {/* <UndoMessage /> */}
+    <CounterReducerApp />
 
     </>
   );
