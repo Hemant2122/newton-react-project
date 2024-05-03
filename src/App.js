@@ -9,7 +9,7 @@ import SingleUseState from './1. BasicReact/5. MultipleState/2.Single__USe__Stat
 import BeautifulWrapper from './1. BasicReact/6. WrapperBeautifulComponent/BeautifulWrapper';
 import MainContentComponent from './1. BasicReact/6. WrapperBeautifulComponent/MainContentComponent';
 // import Parent from './2. Communication/1. ParentToChild/Parent';
-import Parent from './2. Communication/2. ChildToParent/Parent';
+// import Parent from './2. Communication/2. ChildToParent/Parent';
 import ParentSibling from './2. Communication/3. Sibling/ParentSibling';
 import KeyAndListProblem from './3. KeyAndList/KeyAndListProblem';
 import KeyAndListSolution from './3. KeyAndList/KeyAndListSolution';
@@ -39,6 +39,12 @@ import SimpleFormInputBoxComponent from './18. useRef/2. useRefExamples/2. Simpl
 import InputComponentForm from './18. useRef/2. useRefExamples/3. InputComponentForm/InputComponentForm';
 import UndoMessage from './18. useRef/2. useRefExamples/4. UndoMessage/UndoMessage';
 import CounterReducerApp from './19. useReducer/CounterReducerApp';
+import Basic from './20. Performance/1. Basic/Basic';
+import Parent from './20. Performance/2. Re-rendering/3. FunctionalProps/Parent';
+import RecatLazyApp from './20. Performance/2. Re-rendering/4. React.lazy/RecatLazyApp';
+import { BrowserRouter } from 'react-router-dom';
+// import Parent from './20. Performance/2. Re-rendering/2. ValueProps/Parent';
+// import Parent from './20. Performance/2. Re-rendering/1. NoProps/Parent';
 
 
 
@@ -198,7 +204,15 @@ function App() {
     {/* <SimpleFormInputBoxComponent /> */}
     {/* <InputComponentForm /> */}
     {/* <UndoMessage /> */}
-    <CounterReducerApp />
+    {/* <CounterReducerApp /> */}
+    {/* <Basic /> */}
+
+    {/* <Parent /> */}
+    {/* <Parent /> */}
+    {/* <Parent /> */}
+    <BrowserRouter>
+      <RecatLazyApp />
+    </BrowserRouter>
 
     </>
   );
