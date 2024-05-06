@@ -43,6 +43,7 @@ import Basic from './20. Performance/1. Basic/Basic';
 import Parent from './20. Performance/2. Re-rendering/3. FunctionalProps/Parent';
 import RecatLazyApp from './20. Performance/2. Re-rendering/4. React.lazy/RecatLazyApp';
 import { BrowserRouter } from 'react-router-dom';
+import WindowingProblem from './20. Performance/2. Re-rendering/3. Windowing/WindowingProblem';
 // import Parent from './20. Performance/2. Re-rendering/2. ValueProps/Parent';
 // import Parent from './20. Performance/2. Re-rendering/1. NoProps/Parent';
 
@@ -210,9 +211,10 @@ function App() {
     {/* <Parent /> */}
     {/* <Parent /> */}
     {/* <Parent /> */}
-    <BrowserRouter>
+    {/* <BrowserRouter>
       <RecatLazyApp />
-    </BrowserRouter>
+    </BrowserRouter> */}
+    <WindowingProblem />
 
     </>
   );
