@@ -44,6 +44,10 @@ import Parent from './20. Performance/2. Re-rendering/3. FunctionalProps/Parent'
 import RecatLazyApp from './20. Performance/2. Re-rendering/4. React.lazy/RecatLazyApp';
 import { BrowserRouter } from 'react-router-dom';
 import WindowingProblem from './20. Performance/2. Re-rendering/3. Windowing/WindowingProblem';
+import Forms from './21. customhooks/1. FormWithLocalStorege/2. CustomHookMethod/Forms';
+import PokemonApp from './21. customhooks/2. useFetch/2. CustomHookMethod/PokemonApp';
+// import PokemonApp from './21. customhooks/2. useFetch/1. Traditional/PokemonApp';
+// import Forms from './21. customhooks/1. FormWithLocalStorege/1. TradationalMethod/Forms';
 // import Parent from './20. Performance/2. Re-rendering/2. ValueProps/Parent';
 // import Parent from './20. Performance/2. Re-rendering/1. NoProps/Parent';
 
@@ -214,7 +218,9 @@ function App() {
     {/* <BrowserRouter>
       <RecatLazyApp />
     </BrowserRouter> */}
-    <WindowingProblem />
+    {/* <WindowingProblem /> */}
+    {/* <Forms /> */}
+    <PokemonApp />
 
     </>
   );
