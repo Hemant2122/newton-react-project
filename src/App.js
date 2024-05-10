@@ -46,6 +46,7 @@ import { BrowserRouter } from 'react-router-dom';
 import WindowingProblem from './20. Performance/2. Re-rendering/3. Windowing/WindowingProblem';
 import Forms from './21. customhooks/1. FormWithLocalStorege/2. CustomHookMethod/Forms';
 import PokemonApp from './21. customhooks/2. useFetch/2. CustomHookMethod/PokemonApp';
+import AuthApp from './22. Authentication/AuthApp';
 // import PokemonApp from './21. customhooks/2. useFetch/1. Traditional/PokemonApp';
 // import Forms from './21. customhooks/1. FormWithLocalStorege/1. TradationalMethod/Forms';
 // import Parent from './20. Performance/2. Re-rendering/2. ValueProps/Parent';
@@ -220,7 +221,9 @@ function App() {
     </BrowserRouter> */}
     {/* <WindowingProblem /> */}
     {/* <Forms /> */}
-    <PokemonApp />
+    {/* <PokemonApp /> */}
+
+    <AuthApp />
 
     </>
   );
